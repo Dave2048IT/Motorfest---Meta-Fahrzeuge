@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Motorfest - Meta Fahrzeuge</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;padding:20px;background:#f5f5f5;color:#333;line-height:1.6}
+.container{max-width:800px;margin:auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+h1,p{text-align:center;margin-bottom:20px}
+details{margin-bottom:15px;border:1px solid #ddd;border-radius:4px;background:#e9ecef;padding:10px}
+summary{font-weight:bold;cursor:pointer;outline:none}
+ul{list-style:none;padding:0;margin-top:10px}
+li{background:#fff;margin:8px 0;padding:10px;border-radius:4px;display:flex;justify-content:space-between;align-items:center;border:1px solid #ccc}
+.detail{background:#007bff;color:#fff;padding:2px 6px;border-radius:4px;font-size:0.9em;white-space:nowrap;margin-left:10px}
+@media(max-width:600px){body{padding:10px}.container{padding:15px}li{flex-direction:column;align-items:flex-start}.detail{margin:5px 0 0 0}}
+/* Farbklassen */
+.details-yellow { background: #fffacd; }   /* LemonChiffon / hellgelb */
+.details-orange { background: #ffe4b5; }   /* Moccasin / hellorange */
+.details-red    { background: #f4cccc; }   /* Hellrot */
+.details-turq   { background: #d0f0f0; }   /* Helltürkis */
+
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Motorfest - Meta Fahrzeuge</h1>
+  <p>Die schnellsten Autos in Motorfest für jede Kategorie<br>
+    <strong>(Stand März 2025)</strong></p>
+  <p>* Accel. = Beschleunigung</p>
+
+  <details class="details-yellow" open>
+    <summary>Street Tier 1</summary>
+    <ul>
+      <li><span><strong>Audi</strong> RS2 Avant</span><span class="detail">All-Rounder</span></li>
+      <li><span><strong>Porsche</strong> 911 RS 2.7</span><span class="detail">Top-Speed</span></li>
+      <li><span><strong>Ford</strong> Mustang Mach-E GT</span><span class="detail">Accel.</span></li>
+    </ul>
+  </details>
+  <details class="details-yellow">
+    <summary>Street Tier 2</summary>
+    <ul>
+      <li><span><strong>Porsche</strong> 911 GT3 RS</span><span class="detail">All-Rounder</span></li>
+      <li><span><strong>Porsche</strong> 911 GT (993)</span><span class="detail">Nitro-Boost</span></li>
+      <li><span><strong>Lamborghini</strong> Huracan LP610-4</span><span class="detail">400+ km/h</span></li>
+      <li><span><strong>Taycan</strong> Turbo S</span><span class="detail">Accel.</span></li>
+      <li><span><strong>Ferrari</strong> F40</span><span class="detail">Handling</span></li>
+      <li><span><strong>Toyota</strong> GR Supra</span><span class="detail">?</span></li>
+    </ul>
+  </details>
+  <details class="details-yellow">
+    <summary>Drift</summary>
+    <ul>
+      <li><span><strong>Ford</strong> Hoonicorn Mustang</span><span class="detail">Extrem gut!</span></li>
+      <li><span><strong>Mitsubishi</strong> Lancer Evo VI (6)</span></li>
+    </ul>
+  </details>
+  <details class="details-yellow">
+    <summary>Drag Race</summary>
+    <ul>
+      <li><span><strong>HuP One</strong>, Burning Wheels Edition</span><span class="detail">Ultra-Speed</span></li>
+      <li><span><strong>Ruf</strong> CTR3</span><span class="detail">für Radarfallen</span></li>
+      <li><span><strong>Dodge</strong> Viper</span><span class="detail">für Drag-Rennen</span></li>
+    </ul>
+  </details>
+  <details class="details-yellow">
+    <summary>Hypercar</summary>
+    <ul>
+      <li><span><strong>Koenigsegg</strong> Agera R</span><span class="detail">All-Rounder</span></li>
+      <li><span><strong>Bugatti</strong> Centodieci</span><span class="detail">für Flucht & Top-Speed</span></li>
+      <li><span><strong>Porsche</strong> GT1 Strassenversion</span><span class="detail">Viel Top-Speed</span></li>
+      <li><span><strong>Rimac</strong> Nevera</span><span class="detail">Accel.</span></li>
+    </ul>
+  </details>
+
+  <details class="details-orange">
+    <summary>Motocross</summary>
+    <ul><li><span>Eigentlich egal (oder <strong>Yamaha</strong>)</span></li></ul>
+  </details>
+  <details class="details-orange">
+    <summary>Rally Raid</summary>
+    <ul>
+      <li><span><strong>Toyota</strong> Tacoma</span><span class="detail">Top-Speed</span></li>
+      <li><span><strong>Porsche</strong> 959</span><span class="detail">für Straßen</span></li>
+      <li><span><strong>BMW</strong> z4 sDrive35i</span><span class="detail">für Off-Road</span></li>
+    </ul>
+  </details>
+  <details class="details-orange">
+    <summary>Rally Cross</summary>
+    <ul>
+      <li><span><strong>Peugeot</strong> 205 T16 Evo 2</span></li>
+      <li><span><strong>Porsche</strong> 911 GT3</span></li>
+    </ul>
+  </details>
+
+  <details class="details-red">
+    <summary>Demolition Derby</summary>
+    <ul>
+      <li><span>Auch egal (oder <strong>Dodge</strong> Challenger)</span><span class="detail">?</span></li>
+    </ul>
+  </details>
+  <details class="details-red">
+    <summary>Monster Truck</summary>
+    <ul>
+      <li><span><strong>Chevrolet</strong> Silverado 1500</span></li>
+    </ul>
+  </details>
+
+  <details class="details-turq">
+    <summary>Boot</summary>
+    <ul>
+      <li><span><strong>Vector</strong> V40R</span><span class="detail">für Rennen</span></li>
+      <li><span><strong>Bladerunner</strong> 35</span><span class="detail">für Slaloms</span></li>
+      <li><span><strong>Proto</strong> WR1</span><span class="detail">für Tests</span></li>
+    </ul>
+  </details>
+  <details class="details-turq">
+    <summary>Flugzeug</summary>
+    <ul>
+      <li><span><strong>Zivko Edge</strong> 540 V3</span><span class="detail">Handling</span></li>
+      <li><span><strong>North American</strong> P-51 Mustang</span><span class="detail">Top-Speed</span></li>
+    </ul>
+  </details>
+
+  <details class="details-turq">
+    <summary>Racing (Touring Car)</summary>
+    <ul>
+      <li><span><strong>Gordon Murray</strong> T.50R</span><span class="detail">All-Rounder</span></li>
+      <li><span><strong>Chevrolet</strong> Camaro SS</span><span class="detail">Top-Speed</span></li>
+      <li><span><strong>Lamborghini</strong> Gallardo Supertrofeo</span><span class="detail">Top-Speed</span></li>
+      <li><span><strong>Volkswagen</strong> ID-R</span><span class="detail">Accel.</span></li>
+      <li><span><strong>Hoonigan</strong> Audi e-tron</span><span class="detail">Accel.</span></li>
+    </ul>
+  </details>
+  <details class="details-turq">
+    <summary>Alpha GP</summary>
+    <ul>
+      <li><span><strong>Red Bull</strong> RB14 (Disruption)</span><span class="detail">All-Rounder</span></li>
+    </ul>
+  </details>
+  <details class="details-turq">
+    <summary>Alpha-Jet</summary>
+    <ul>
+      <li><span>Noch unbekannt</span></li>
+    </ul>
+  </details>
+</div>
+</body>
+</html>
